@@ -1,0 +1,1 @@
+This is a simple template for a Geant4 application.
