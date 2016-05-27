@@ -1,2 +1,6 @@
 No guarantee. No responsibility. No nothing.
 Do as you like.
+
+And then, select your own licence. Ideas:
+- MIT (if you want allow anyone anything)
+- GPL and its variants (if you want to restrict the commercial use)

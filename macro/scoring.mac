@@ -1,0 +1,22 @@
+/run/initialize
+
+# Set up the particle source
+# Reference: https://geant4.web.cern.ch/geant4/UserDocumentation/UsersGuides/ForApplicationDeveloper/html/ch02s07.html
+/gps/particle e-
+/gps/energy 1 MeV
+/gps/direction 0 0 1
+/gps/position 0 0 0 m
+
+# Set up scoring
+# Reference: https://geant4.web.cern.ch/geant4/UserDocumentation/UsersGuides/ForApplicationDeveloper/html/ch04s08.html
+/score/create/boxMesh boxMesh_1
+/score/mesh/boxSize 100. 100. 100. cm
+/score/mesh/nBin 10 10 10
+/score/quantity/energyDeposit eDep
+/score/close
+
+# Run and write
+/run/beamOn 1000
+
+# Write scoring quantities to a file
+/score/dumpQuantityToFile boxMesh_1 eDep edep.csv

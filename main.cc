@@ -66,8 +66,8 @@ int main(int argc, char** argv)
     runManager->SetUserInitialization(new DetectorConstruction());
     runManager->SetUserInitialization(new ActionInitialization());
 
-    // If you want to use scoring, uncomment the following line:
-    /* G4ScoringManager::GetScoringManager() */
+    // If you do not want to use scoring, uncomment the following line:
+    G4ScoringManager::GetScoringManager();
 
     #ifdef G4UI_USE
         G4UIExecutive* ui;

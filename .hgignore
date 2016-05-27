@@ -1,4 +1,5 @@
-# File patterns to be excluded from Git
+# File patterns to be excluded from Mercurial
+syntax: glob
 
 # --- CMake
 CMakeFiles
