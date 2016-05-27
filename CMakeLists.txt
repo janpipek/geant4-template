@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.3 FATAL_ERROR)
+
+# Please replace "app" in the whole file with your desirec name
 project(app)
 
 option(WITH_GEANT4_UIVIS "Build with Geant4 UI and Vis drivers" ON)

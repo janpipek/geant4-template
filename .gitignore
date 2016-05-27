@@ -1,0 +1,20 @@
+# --- CMake
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- Projects
+# a) Eclipse
+/.project        
+# b) IDEA
+/.idea            
+# c) QtCreator
+*.creator*
+*.files
+*.includes
+# d) VS code
+*.vscode
+
+# --- The application file (change it to your desired name)
+/app
