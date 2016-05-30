@@ -27,6 +27,10 @@
 
 using namespace std;
 
+/* Main function that enables to:
+ * - run any number of macros (put them as command-line arguments)
+ * - start interactive UI mode (no arguments or "-i")
+ */
 int main(int argc, char** argv)
 {
     vector<G4String> macros;    
