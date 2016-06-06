@@ -3,6 +3,7 @@
 // Select one of the two header files (or keep them both)
 #include <G4ParticleGun.hh>
 #include <G4GeneralParticleSource.hh>
+#include <G4SystemOfUnits.hh>
 
 using namespace std;
 
